@@ -1,0 +1,249 @@
+/**color**/
+.sym-purple {
+    background-color: rgb(161,40,148);
+    }
+    
+    .sym-darkpurple {
+        background-color: #80489C; 
+    }
+    
+    .sym-pink {
+        background-color: rgb(255, 77, 237);
+        }
+    
+    .sym-skin {
+        background-color: rgb(255,169,169);
+        /* background-color: #432C7A; */
+    }
+    
+    
+
+    .sym-yellow-bk{
+        background-color:rgb(255,251,227);
+    }
+
+    
+
+    /**font**/
+    a {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color:rgb(161,40,148);
+    }
+
+    th,td {
+        font-size: 1.25rem;
+    }
+
+
+.font-m {
+    font-size: 1.1rem;
+}
+
+/*font color*/
+.sym-yellow-font {
+    color:rgb(255,251,227);
+}
+
+.sym-purple-font {
+    color: rgb(161,40,148);
+    }
+
+.sym-dark-font {
+    color: rgb(85, 19, 79);
+    }
+
+    /* FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer {
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .page-footer a {
+    margin-left: 4px;
+  }
+
+/*Grid*/
+
+.display-flex {
+    display: flex;
+}
+
+.d-flex-center {
+    display: flex;
+    justify-content: center;
+}
+
+.d-flex-space-around {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.d-flex-space-around {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mg-bottom-3 {
+margin-bottom: 3rem;
+}
+
+.mg-bottom-2 {
+    margin-bottom: 2rem;
+    }
+
+.margin-left-1{
+    margin-left: 1rem;
+}
+
+.padding-3 {
+padding: 3.25rem;
+}
+
+.flex-direction {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+
+/*card*/
+
+.card-header-main {
+    border-bottom: 1px solid rgba(0,0,0,0.125);
+}
+
+.card-header-main:first-child {
+    border-radius: 4px 4px 0 0;
+}
+
+.card-main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.125);
+    border-radius: 5px;
+}
+
+
+.card-title {
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0px;
+}
+
+/*margin*/
+
+.mb-2rem {
+    margin-bottom: 2rem;
+}
+
+/*btn_style*/
+.btn_style {                                   
+    text-align: center;                               
+    color: rgb(255,251,227);                                      
+   }
+    
+   .btn_style:hover {                           
+    background-color: rgb(255,169,169);              
+    color: #FFF;                                       
+    cursor: pointer;                                
+   }
+
+
+   /* img */
+   #preview{
+    border: 1px solid lightgray;
+    display: inline-block;
+    width: 150px;
+    min-height: 100px;
+    position: relative;
+  }
+  #preview span.text{
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    color: lightgray;
+  }
+  #preview img.preview_img{
+    width: 100%;
+  }
+
+
+/* 公告 */
+ /* 重點實現樣式 */
+ .not-tit1 {
+    position: absolute;
+    left: 1.6rem;
+    width: 80%;
+    overflow: hidden;
+  }
+
+  .inner-container {
+    margin-left: 100%;
+    width: 100%;
+    animation: myMove 30s linear infinite;
+    animation-fill-mode: forwards;
+  }
+
+  /* 文字無縫滾動 */
+  @keyframes myMove {
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-2500px);
+    }
+  }
+
+  /* CSS */
+  .mes-rut {
+    position: absolute;
+    left: 0.45rem;
+    top: 4.69rem;
+    width: 9.1rem;
+    height: 1rem;
+    line-height: 1rem;
+    padding: 0 0.3rem;
+    background: #ffeefb;
+    border-radius: 0.1rem 0.1rem 0 0;
+    z-index: 99;
+  }
+  .dva {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .rut-tit1 {
+    font-family: PingFangSC-Regular;
+    font-size: 0.4rem;
+    color: #ff0089;
+  }
+  .rut-line {
+    color: #ffa6eb;
+    height: 0.26rem;
+    width: 1.5px;
+    background: #ffa6eb;
+    margin: 0 0.2rem;
+  }
+  
+  .imgAd {
+   height: 180px;
+   width: 180px;
+  
+  }

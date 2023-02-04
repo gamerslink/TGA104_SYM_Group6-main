@@ -1,0 +1,70 @@
+/*  table-outbox
+------------------------------------- */
+.table-outbox {
+	margin: 50px; /* 添加外距 */
+	box-shadow: 0px 35px 50px rgba(27, 31, 49, 0.1); /* 添加表格陰影 */
+}
+
+/*  table
+  ------------------------------------- */
+table {
+	border-collapse: collapse; /* 表格邊框合併 */
+	width: 100%; /* 寬度 100% */
+	background-color: white; /* 背景白色 */
+}
+
+table thead th {
+	color: #ffffff; /* 表頭文字白色 */
+	background: #FFA9A9; /* 表頭背景白色 */
+}
+
+table td, table th {
+	text-align: center; /* 文字置中顯示 */
+	padding: 10px; /* 添加內距 */
+}
+
+table tr:nth-child(even) {
+	background: #f8f8f8; /* 表格偶數 tr 灰色背景 */
+}
+
+#search1, #search2 {
+	display: inline-block;
+}
+
+#search2 {
+	position: relative;
+	right: 60px;
+}
+
+#search {
+	display: flex;
+	justify-content: space-between;
+}
+
+.star-mark, .upload1, .text, .upload2 {
+	display: inline-block;
+}
+
+.star-mark {
+	top: 10px;
+	left: 45px;
+}
+
+.upload1 {
+	position: relative;
+	bottom: 115px;
+	left: 50px;
+}
+
+.text{
+	position: relative;
+	bottom: 430px;
+	left: 15px;
+}
+
+.upload2 {
+	position: relative;
+	bottom: 30px;
+	right: 25px;
+}
+

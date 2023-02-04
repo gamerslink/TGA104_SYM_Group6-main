@@ -1,0 +1,39 @@
+body {
+    background: #FFFBE3;
+}
+
+.bottom-bar {
+    padding: 0 0 15px 0;
+    background: #FFA9A9;
+    margin-bottom: 30px;
+}
+
+.nav,
+.nav .navbar {
+    background: #FFA9A9 !important;
+}
+
+.btn.cart {
+    width: 120px;
+}
+
+img.user_img {
+    /* margin-left: 35%; */
+}
+
+/* button.user_img {
+    margin-left: 43%;
+} */
+
+.nav .dropdown-menu {
+    background: #FFEEDB;
+}
+
+button.login_btn {
+    margin-left: 50%;
+}
+
+button.login_btn2 {
+    margin-left: 30%;
+}
+

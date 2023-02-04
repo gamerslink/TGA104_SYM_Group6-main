@@ -1,0 +1,41 @@
+
+
+table#table-1 {
+	background-color: #FFA9A9;
+	
+	text-align: center;
+	border-collapse:collapse;
+}
+
+table {
+    width: 600px;
+	background-color: white;
+	margin-top: 1px;
+	margin-bottom: 2px;
+	border-collapse:collapse;
+	border-radius: 5px;
+	
+	
+}
+
+table, tr, th, td {
+	border: 0px solid #FFA9A9;
+	font-weight: bold;
+	border-collapse:collapse;
+	text-align: center;
+}
+
+tr:hover{
+/* background-color: #CCCCFF; */
+}
+
+td {
+	text-align: center;
+}
+
+#checkoutForm{
+	margin-left:330px;
+}
+
+
+

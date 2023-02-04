@@ -1,0 +1,27 @@
+body {
+    background: #FFFBE3;
+}
+
+.bottom-bar {
+    padding: 0 0 15px 0;
+    background: #FFA9A9;
+    margin-bottom: 30px;
+}
+
+.nav,
+.nav .navbar {
+    background: #FFA9A9 !important;
+}
+
+.btn.cart {
+    width: 120px;
+}
+
+
+#account-sv{
+    background: #FF6F61 !important;
+}
+
+.storeBlock{
+    display: block;
+}

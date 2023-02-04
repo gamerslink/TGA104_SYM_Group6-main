@@ -1,0 +1,43 @@
+body {
+    background: #FFFBE3;
+}
+
+.bottom-bar {
+    padding: 0 0 15px 0;
+    background: #FFA9A9;
+    margin-bottom: 30px;
+}
+
+.nav,
+.nav .navbar {
+    background: #FFA9A9 !important;
+}
+
+.btn.cart {
+    width: 120px;
+}
+
+img.user_img {
+    /* margin-left: 35%; */
+}
+
+/* button.user_img {
+    margin-left: 43%;
+} */
+
+.nav .dropdown-menu {
+    background: #FFEEDB;
+}
+
+.register {
+    position: relative;
+    padding-top: 30px;
+}
+
+
+.login .login-form,
+.login .register-form {
+    padding: 100px;
+    background: #ffffff;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+      }
+      .counter li {
+        float: left;
+        list-style-type: none;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        line-height: 30px;
+        border: #999 thin solid;
+        background-color: #fff;
+      }
+      .counter li input {
+        font-size: 20px;
+        width: 100%;
+        height: 100%;
+        outline: none;
+        /* -webkit-appearance: none; */
+        background: none;
+        margin: 0;
+        padding: 0;
+        border: 1px solid transparent;
+        border-radius: 0;
+      }
+      #countnum {
+        border-left: hidden;
+        border-right: hidden;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="counter">
+      <li id="minus"><input type="button" onclick="minuser()" value="-" /></li>
+      <li id="countnum">0</li>
+      <li id="plus"><input type="button" onclick="adder()" value="+" /></li>
+    </ul>
+    <script src="./vendors/jquery/jquery-3.6.1.min.js"></script>
+    <script>
+      function adder() {
+        var count = document.getElementById("countnum").innerHTML;
+        count = parseInt(count) + 1;
+        document.getElementById("countnum").innerHTML = count;
+      }
+      function minuser() {
+        var count = document.getElementById("countnum").innerHTML;
+        if (count <= 0) {
+          count = 0;
+        } else {
+          count = parseInt(count) - 1;
+        }
+        document.getElementById("countnum").innerHTML = count;
+      }
+    </script>
+  </body>
+</html>

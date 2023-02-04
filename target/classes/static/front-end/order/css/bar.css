@@ -1,0 +1,69 @@
+body {
+        margin: 0;
+        padding: 0;
+      }
+      
+table {
+	border-radius: 50px;
+	 border-collapse:collapse;
+	
+	 border-radius: 5px;
+}
+      
+table, th {
+	background-color:#FFA9A9;
+	font-weight: bold;
+	
+	text-align: center;
+	border-collapse: collapse;
+	
+}
+table, tr, td {
+	background-color:#ffffff;
+	border: 0px;
+	border-collapse: collapse;
+	
+}
+      .container {
+        position: absolute;
+        
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .steps {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        width: 570px;
+      }
+      .step {
+        width: 20px;
+        height: 20px;
+        background: #fff;
+        border: 1px solid #acaca6;
+        border-radius: 50%;
+        transition: background 1s;
+      }
+      .step.selected {
+        border: 2px solid #FFA9A9;
+      }
+      .step.completed {
+        border: 2px solid #FFA9A9;
+        background: #FFA9A9;
+      }
+      .progress {
+        position: absolute;
+        width: 570px;
+        height: 50%;
+        border-bottom: 1px solid #acaca6;
+        z-index: -1;
+        background: #FFFBE3;
+      }
+      .percent {
+        position: absolute;
+        width: 100px;
+        height: 115%;
+        border-bottom: 2px solid #FFA9A9;
+        z-index: 1;
+        transition: width 1s;
+      }

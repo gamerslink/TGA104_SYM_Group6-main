@@ -1,0 +1,19 @@
+.daysContainer{
+    box-shadow: 0px 0px 5px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:10px;
+}
+
+.dayRow{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+.dayBlock{
+    border: 1px solid black;
+    color: white;
+    background-color: lightgray;
+}
